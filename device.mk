@@ -1,19 +1,20 @@
-Update: 02 June 2020
+Update: 07 June 2020
 ===================
 
-• Whole device tree cleaned, done a lot of rebasing stuff
+• Device Treee Upgraded to 4.9 Kernel Compatible
+• Whole device tree is rebased...
+• Cleanup & Update USB configuration
+• Update sepolicy for 4.9
+• Fix USB config extra property
+• Update custom fingerprint service for msm-4.9
+• Disable ULL mode for speakers
+• Update some left-over CarrierConfig overlays from Tissot
+• Enable frameworks boost
+• Overlays for devices specific 'Intelligent Profile'
+• Battery Health Overlays
 • Provide module targets for libqmiservices
-• Update and modify wcnss_service
-• Force triple frame buffers now
 • Drop some offset properties
-• Drop unused camera firmware
-• Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
-• Set partitions for loop device
-• Introduce 'SafailNet' ( Fix for CTS Bypass for some user's )
 • Improved Wifi Connection speed
 • Tune zram performance
-• Build kernel with latest Clang
-• Add GraphicBuffer shim for camera
-• Kang missing camera libs from Hydrogen
-• Use MoeSyndrome Kernel as default
+• Using Perf Kernel as default and Updated Kernel Version to Linux 4.9.226
 and a whole lot more stuff, optimaztions and rebasing...
