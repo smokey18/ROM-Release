@@ -1,7 +1,12 @@
-Update: 07 June 2020
+Update: 12 June 2020
 ===================
 
-• Device Treee Upgraded to 4.9 Kernel Compatible
+• Device Treee Upgraded to 4.9 Kernel
+• Removed XiaomiParts and added Xiaomi-Addon
+• Permissive for now ( As XiaomiParts & Xiaomi-Addon need to work so )
+• Address some denials
+• Adresss new vibrator nodes
+• Cleanup and fix rules for Sepolicy
 • Whole device tree is rebased...
 • Cleanup & Update USB configuration
 • Update sepolicy for 4.9
