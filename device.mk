@@ -1,35 +1,24 @@
-Update: 28 June 2020
+Update: 08 July 2020
 ===================
 
-• All Changes till 25 June 2020
-• Create folder for secure_element
-• Add missing net_raw to pm-service
-• Enable ro.telephony.use_old_mnc_mcc_format
-• Move IMS system libs to product
-• Remove system privapp permissions covered by product
-• Remove qti_libpermissions.xml
-• Drop QMI libqmi_cci_system blobs
-• Move QMI system libs to product
-• Update RIL permissions from LA.UM.8.6.r1-04400-89xx.0
-• Move RIL system libs to product
-• Import IMS inits for self-contained modules
-• Configs: Add voip_tx profile to policy conf
-• Revert "mido: Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE"
-• Add audiosphere effect support
-• Add Audiosphere blobs from LA.UM.8.6.r1-04400-89xx.0
-• Update qti_permissions from LA.UM.8.6.r1-04400-89xx.0
-• Make shim for libui
-• Respect non-static member function calls
-• Address per_mgr denial
-• Fix a wcnss_service denial
-• Drop libbtconfigstore from blobs list
-• Drop snap overlay
-• Disable DiscoveryService
-• Overlay: Remove Telecomm overlays
-• Remove Inflate signal strength
-and a whole lot more stuff, optimaztions...
-
-Note:
-• Some stuff in XiaomiParts is related to Kernel Tweaks, So use them if you know what you're doing ( I'm not responsible for your mobile )
-• As 4.9 Kernel still have somethings missing, so in XiaomiParts you might face somethings not working properly.
-I tried to fix as many as i could, so if still something isn't working please be patient, don't SPAM and wait for fix from kernel side.
+• All Changes till 28 June 2020
+• Adding XiaomiParts into the whitelist
+• Address some Sepolicy denails
+• Fix dual sim devices ( Maybe Working, Maybe Not )
+• Enable QC framework value-adds
+• Update the default network mode to T/L/G/W/1x/Evdo on both sub
+• Make WiFi Calling preference editable for Jio (India)
+• Fix display wakeup
+• Disable sys.use_fifo_ui
+• Enable fluence for audio/voice recording
+• Added EAS PowerHal
+• Setup sepolicy for libperfmgr
+• Import optimized powerhint for mido
+• Configure thermal throttle limit
+• Enable 4k on front cam
+• Update factory version to v2.1
+• Enable memory optimizations
+• Force background tasks on little cores
+• Update auto/screen brightness overlay from Daisy
+• Fix kgsl-3d0 node connecction
+• Address missing denails for EAS and other stuff
