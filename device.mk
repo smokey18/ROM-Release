@@ -1,24 +1,50 @@
-Update: 08 July 2020
+Update: 26 July 2020
 ===================
 
-• All Changes till 28 June 2020
-• Adding XiaomiParts into the whitelist
-• Address some Sepolicy denails
-• Fix dual sim devices ( Maybe Working, Maybe Not )
-• Enable QC framework value-adds
-• Update the default network mode to T/L/G/W/1x/Evdo on both sub
-• Make WiFi Calling preference editable for Jio (India)
-• Fix display wakeup
-• Disable sys.use_fifo_ui
-• Enable fluence for audio/voice recording
-• Added EAS PowerHal
-• Setup sepolicy for libperfmgr
-• Import optimized powerhint for mido
-• Configure thermal throttle limit
-• Enable 4k on front cam
-• Update factory version to v2.1
-• Enable memory optimizations
-• Force background tasks on little cores
+• Update Display, Media and Audio hals from LA.UM.8.6.2.r1-07800-89xx.0
+• XiaomiParts: Nuke all non working stuff ( TCP Congestion, LKM Profiles, Charging LED, Camera Flash Yellow )
+• Update Graphics blobs OpenGL-V@474.0
+• Checkout init.qcom.post_boot.sh to LA.UM.8.6.2.r1-07800-89xx.0
+• Compiled with latest Proton Clang 12
+• Update Vulkan 1.1.128 drivers
+• XiaomiParts: Fix Vibration Strength node
+• Enable Vibration & Haptic strength
+• Update qti-telephony-manager from Vsmart Casuari
+• Disable vendor mismatch warning
+• Updated GCam Go to v2
+• Set thermal profile on boot
+• Make WiFi channel selection range wider
+• Compile HWUI for Better Performance
+• Place a copy of updated libprocessgroup.so
+• Bring back LiveDisplay
+• Battery Health Overlays
+• Add Call Recording overlay ( For Vanilla Version only )
+• Open /sdcard instead of Downloads by default
+• Add Custom Doze Support
+• Hide unsupported color effects entry of Snap
+• Restart preview for additional camera onPictureTaken
 • Update auto/screen brightness overlay from Daisy
-• Fix kgsl-3d0 node connecction
-• Address missing denails for EAS and other stuff
+• Enable Wired/BT headset focus mode
+• Revert "mido: props: Enable zygote preforking"
+• Use opensource btconfigstore
+• Remove KPI marker at ADSP start
+• Remove more deprecated display flags
+• Remove left-over c2 codecs reference
+• Update qcom-sh service user permission
+• Drop display calibration
+• Increase max bss count
+• Disable BSS flush
+• Enable Fast BSS Transition
+• Increase maximum number of BSS in memory
+• Enable IWLAN overlays
+• Enable IMS feature flags for supported carriers
+• Revert "mido: Enable GL comp backpressure"
+• XiaomiParts: Fixed Settings restore on boot
+• Disable vsync for cpu rendered apps
+• Misc. audio i/o improvements
+• Fixed & Updated many sepolicy denials issues
+• Update and resolve additional denials ( Adjust for 4.9 )
+• Many under the hood improvements
+
+Note:
+- Some features of XiaomiParts are removed because those weren't working, I'll add them back if i find a fix for it...
